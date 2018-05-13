@@ -338,8 +338,11 @@ void shell_task()
 				shell_println((const char *) "Command NOT found."); // Print not found!!
 #endif
 			}
+<<<<<<< HEAD
 			// Reset command complete flag and character count when done
 			count = 0;
+=======
+>>>>>>> c37f4bc8d9ec3a9a243295d9b7d516203b06983d
 			cc = false;
 			shell_println("");
 			shell_prompt();
